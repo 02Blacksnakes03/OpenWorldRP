@@ -1,0 +1,15 @@
+local QBCore = exports['qb-core']:GetCoreObject()
+
+-- Blip
+CreateThread(function() 
+    comicblip = AddBlipForCoord(vector3(-143.54, 230.45, 94.94))
+    SetBlipSprite(comicblip, 671)
+    SetBlipDisplay(comicblip, 4)
+    SetBlipColour(comicblip, 43)
+    SetBlipScale(comicblip, 0.6)
+    SetBlipAsShortRange(comicblip, true)
+    SetBlipScale(comicblip, 0.6)
+    BeginTextCommandSetBlipName("STRING")
+    AddTextComponentSubstringPlayerName("Trading Card Co.")
+    EndTextCommandSetBlipName(comicblip)
+end)
