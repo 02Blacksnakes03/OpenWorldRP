@@ -1,0 +1,81 @@
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 23/7/2024 11:28:24
+================================================================
+[11:28:47][vladimirPuticlub] created admins file
+[11:29:22][vladimirPuticlub] Changing global/fxserver settings via setup stepper.
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 23/7/2024 12:52:30
+================================================================
+[12:53:13][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[13:08:21][vladimirPuticlub] executed "RESTART SERVER"
+[13:14:19][vladimirPuticlub] executed "RESTART SERVER"
+[13:17:31][vladimirPuticlub] executed "RESTART SERVER"
+[13:33:18][vladimirPuticlub] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 23/7/2024 14:36:55
+================================================================
+[14:37:20][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[14:42:09][vladimirPuticlub] executed "refresh"
+[14:42:11][vladimirPuticlub] executed "ensure "qb-burgershot""
+[14:49:52][vladimirPuticlub] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 23/7/2024 15:23:45
+================================================================
+[15:25:33][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[15:28:17][vladimirPuticlub] executed "stop "qb-burgershot""
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 23/7/2024 16:48:14
+================================================================
+[17:24:39][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[17:24:41][vladimirPuticlub] executed "RESTART SERVER"
+[17:30:18][vladimirPuticlub] executed "ensure "0r-farming""
+[17:31:35][vladimirPuticlub] executed "ensure "0r-farming""
+[18:10:55][vladimirPuticlub] executed "ensure "zlexif-qb-pawnshop""
+[18:38:19][vladimirPuticlub] executed "RESTART SERVER"
+[18:55:55][vladimirPuticlub] executed "RESTART SERVER"
+[19:03:45][vladimirPuticlub] executed "RESTART SERVER"
+[19:07:02][vladimirPuticlub] executed "RESTART SERVER"
+[19:13:05][vladimirPuticlub] executed "RESTART SERVER"
+[19:24:43][vladimirPuticlub] executed "RESTART SERVER"
+[19:35:01][vladimirPuticlub] executed "stop "qb-vehiclekeys""
+[19:35:08][vladimirPuticlub] executed "ensure "qb-vehiclekeys""
+[19:35:12][vladimirPuticlub] executed "stop "psv-garage""
+[19:35:17][vladimirPuticlub] executed "ensure "psv-garage""
+[19:43:24][vladimirPuticlub] executed "refresh"
+[19:43:26][vladimirPuticlub] executed "ensure "qb-forkit""
+[19:44:13][vladimirPuticlub] executed "stop "qb-forkit""
+[19:47:12][vladimirPuticlub] executed "refresh"
+[19:47:13][vladimirPuticlub] executed "ensure "ak4y-advancedHunting""
+[19:47:50][vladimirPuticlub] executed "ensure "qbus_gasstation""
+[19:48:36][vladimirPuticlub] executed "RESTART SERVER"
+[19:55:22][vladimirPuticlub] executed "RESTART SERVER"
+[20:08:11][vladimirPuticlub] executed "RESTART SERVER"
+[20:14:05][vladimirPuticlub] executed "refresh"
+[20:14:07][vladimirPuticlub] executed "ensure "sw-shoplift""
+[20:21:12][vladimirPuticlub] executed "ensure "sw-shoplift""
+[20:22:10][vladimirPuticlub] executed "ensure "sw-shoplift""
+[20:22:50][vladimirPuticlub] executed "ensure "sw-shoplift""
+[20:25:22][vladimirPuticlub] executed "RESTART SERVER"
+[20:31:23][vladimirPuticlub] executed "RESTART SERVER"
+[20:49:11][vladimirPuticlub] executed "ensure "sw-shoplift""
+[20:50:50][vladimirPuticlub] executed "ensure "sw-shoplift""
+[20:58:51][vladimirPuticlub] executed "ensure "psv-chopshop""
+[21:00:33][vladimirPuticlub] executed "refresh"
+[21:00:35][vladimirPuticlub] executed "ensure "rm_kidnapping""
+[21:00:59][vladimirPuticlub] executed "RESTART SERVER"
+[21:12:22][vladimirPuticlub] executed "refresh"
+[21:12:23][vladimirPuticlub] executed "ensure "lab-pet""
+[21:49:56][vladimirPuticlub] executed "refresh"
+[21:49:58][vladimirPuticlub] executed "ensure "row-houserobbery""
+[21:50:28][vladimirPuticlub] executed "refresh"
+[21:50:35][vladimirPuticlub] executed "refresh"
+[21:50:36][vladimirPuticlub] executed "refresh"
+[21:52:11][vladimirPuticlub] executed "RESTART SERVER"
+[21:55:53][vladimirPuticlub] executed "refresh"
+[21:55:55][vladimirPuticlub] executed "ensure "core_skills""
+[22:07:07][vladimirPuticlub] executed "RESTART SERVER"

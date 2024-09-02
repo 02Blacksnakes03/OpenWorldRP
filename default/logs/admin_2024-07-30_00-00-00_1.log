@@ -1,0 +1,26 @@
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 30/7/2024 10:53:52
+================================================================
+
+================================================================
+======== Log Rotated - 30/7/2024 10:53:52                       
+================================================================
+[10:55:12][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[12:58:25][vladimirPuticlub] executed "ensure "s4-realisticdisease""
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 30/7/2024 19:40:26
+================================================================
+[19:50:09][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[19:51:12][vladimirPuticlub] executed "ensure "fd-tradingcards""
+[19:58:22][vladimirPuticlub] executed "stop "meteo-shop""
+[19:59:12][vladimirPuticlub] executed "ensure "fd-tradingcards""
+[20:05:00][vladimirPuticlub] executed "RESTART SERVER"
+[20:07:35][vladimirPuticlub] executed "refresh"
+[20:07:35][vladimirPuticlub] executed "refresh"
+[20:07:39][vladimirPuticlub] executed "ensure "psv-tradingcards""
+[20:10:40][vladimirPuticlub] executed "ensure "psv-tradingcards""
+[20:10:58][vladimirPuticlub] executed "ensure "psv-tradingcards""
+[20:12:00][vladimirPuticlub] executed "ensure "psv-tradingcards""
+[20:35:31][vladimirPuticlub] executed "stop "meteo-shop""

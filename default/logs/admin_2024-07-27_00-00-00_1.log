@@ -1,0 +1,38 @@
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 27/7/2024 11:45:14
+================================================================
+
+================================================================
+======== Log Rotated - 27/7/2024 11:45:15                       
+================================================================
+[11:46:12][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[11:46:15][vladimirPuticlub] executed "RESTART SERVER"
+[12:16:34][vladimirPuticlub] executed "RESTART SERVER"
+[12:27:50][vladimirPuticlub] executed "RESTART SERVER"
+[12:38:45][vladimirPuticlub] executed "RESTART SERVER"
+[12:42:08][vladimirPuticlub] executed "RESTART SERVER"
+[12:50:38][vladimirPuticlub] executed "RESTART SERVER"
+[13:00:16][vladimirPuticlub] executed "refresh"
+[13:00:17][vladimirPuticlub] executed "ensure "qb-busjob""
+[13:18:56][vladimirPuticlub] executed "RESTART SERVER"
+[13:34:25][vladimirPuticlub] executed "ensure "meteo-shop""
+[14:06:38][vladimirPuticlub] executed "ensure "sw-shoplift""
+[15:13:39][vladimirPuticlub] executed "refresh"
+[15:13:48][vladimirPuticlub] executed "RESTART SERVER"
+[15:23:26][vladimirPuticlub] executed "RESTART SERVER"
+[15:43:45][vladimirPuticlub] executed "ensure "qb-oxyruns""
+[15:47:46][vladimirPuticlub] executed "ensure "sd-oxyrun""
+[16:01:48][vladimirPuticlub] executed "RESTART SERVER"
+[16:05:08][vladimirPuticlub] executed "RESTART SERVER"
+[16:27:34][vladimirPuticlub] executed "RESTART SERVER"
+[16:36:00][vladimirPuticlub] executed "ensure "fd-tradingcards""
+[16:47:00][vladimirPuticlub] executed "RESTART SERVER"
+[16:49:40][vladimirPuticlub] executed "ensure "meteo-shop""
+[16:52:37][vladimirPuticlub] executed "ensure "meteo-shop""
+[16:53:19][vladimirPuticlub] executed "ensure "meteo-shop""
+[17:04:32][vladimirPuticlub] executed "ensure "meteo-shop""
+[17:05:33][vladimirPuticlub] executed "RESTART SERVER"
+[17:21:32][vladimirPuticlub] executed "RESTART SERVER"
+[17:28:56][vladimirPuticlub] executed "ensure "fd-tradingcards""
+[17:29:30][vladimirPuticlub] executed "ensure "fd-tradingcards""

@@ -1,0 +1,260 @@
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 24/7/2024 14:01:57
+================================================================
+
+================================================================
+======== Log Rotated - 24/7/2024 14:01:57                       
+================================================================
+[14:09:38][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[14:09:54][vladimirPuticlub] executed "ensure "qbus_gasstation""
+[14:10:29][vladimirPuticlub] executed "ensure "qbus_gasstation""
+[15:04:21][vladimirPuticlub] executed "RESTART SERVER"
+[15:06:34][vladimirPuticlub] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 24/7/2024 20:40:22
+================================================================
+[20:40:51][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[20:40:53][vladimirPuticlub] executed "RESTART SERVER"
+[20:45:24][vladimirPuticlub] executed "refresh"
+[20:45:25][vladimirPuticlub] executed "ensure "jim-jobgarage""
+[20:56:52][vladimirPuticlub] executed "refresh"
+[20:56:53][vladimirPuticlub] executed "ensure "qb-jobvehicle""
+[20:59:42][vladimirPuticlub] executed "RESTART SERVER"
+[21:11:08][vladimirPuticlub] executed "refresh"
+[21:11:13][vladimirPuticlub] executed "ensure "meta_libs""
+[21:11:15][vladimirPuticlub] executed "ensure "psv-drone""
+[21:11:16][vladimirPuticlub] executed "ensure "qb-toypropattach""
+[21:11:17][vladimirPuticlub] executed "ensure "qb-toypropattach""
+[21:11:17][vladimirPuticlub] executed "ensure "qb-toyprops""
+[21:22:47][vladimirPuticlub] executed "RESTART SERVER"
+[22:03:07][vladimirPuticlub] executed "RESTART SERVER"
+[22:08:18][vladimirPuticlub] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 24/7/2024 22:36:30
+================================================================
+[22:40:58][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[22:41:01][vladimirPuticlub] executed "ensure "rm_pets""
+[22:41:02][vladimirPuticlub] executed "ensure "rm_petstream""
+[22:41:03][vladimirPuticlub] executed "ensure "rm_petstream""
+[22:44:07][vladimirPuticlub] executed "RESTART SERVER"
+[22:48:17][vladimirPuticlub] executed "RESTART SERVER"
+[22:51:40][vladimirPuticlub] executed "refresh"
+[22:51:42][vladimirPuticlub] executed "ensure "rm_petstream""
+[22:51:43][vladimirPuticlub] executed "ensure "rm_pets""
+[22:51:44][vladimirPuticlub] executed "ensure "rm_pets""
+[23:04:03][vladimirPuticlub] executed "ensure "qb-advancedrug""
+[23:04:33][vladimirPuticlub] executed "ensure "PSV-shop""
+[23:06:11][vladimirPuticlub] executed "ensure "PSV-shop""
+[23:06:52][vladimirPuticlub] executed "ensure "PSV-shop""
+[23:07:55][vladimirPuticlub] executed "ensure "PSV-shop""
+[23:09:59][vladimirPuticlub] executed "ensure "qb-advancedrug""
+[23:10:05][vladimirPuticlub] executed "ensure "PSV-shop""
+[23:50:10][vladimirPuticlub] executed "RESTART SERVER"
+[00:23:13][vladimirPuticlub] executed "RESTART SERVER"
+[00:28:11][vladimirPuticlub] executed "ensure "pickle_taxijob""
+[00:28:38][vladimirPuticlub] executed "stop "qb-taxijob""
+[00:31:30][vladimirPuticlub] executed "ensure "pickle_taxijob""
+[00:47:13][vladimirPuticlub] executed "RESTART SERVER"
+[00:49:49][vladimirPuticlub] executed "refresh"
+[00:49:53][vladimirPuticlub] executed "stop "qb-taxijob""
+[00:58:36][vladimirPuticlub] executed "refresh"
+[00:58:47][vladimirPuticlub] executed "ensure "Buty-CarWash""
+[00:58:58][vladimirPuticlub] executed "stop "GG-Carwash""
+[01:03:50][vladimirPuticlub] executed "refresh"
+[01:03:53][vladimirPuticlub] executed "ensure "cad-postalop""
+[01:09:09][vladimirPuticlub] executed "RESTART SERVER"
+[01:14:40][vladimirPuticlub] executed "stop "qb-advancedFishing""
+[01:14:42][vladimirPuticlub] executed "refresh"
+[01:16:17][vladimirPuticlub] executed "stop "ak4y-advancedFishing""
+[01:16:19][vladimirPuticlub] executed "ensure "qb-advancedFishing""
+[01:16:30][vladimirPuticlub] executed "refresh"
+[01:19:15][vladimirPuticlub] executed "ensure "qb-advancedFishing""
+[01:19:56][vladimirPuticlub] executed "ensure "qb-advancedFishing""
+[01:24:52][vladimirPuticlub] executed "stop "ak4y-advancedHunting""
+[01:25:41][vladimirPuticlub] executed "RESTART SERVER"
+[01:30:56][vladimirPuticlub] executed "stop "psv-garage""
+[01:31:03][vladimirPuticlub] executed "ensure "psv-garage""
+[01:38:48][vladimirPuticlub] executed "ensure "qb-advancedrug""
+[02:12:58][vladimirPuticlub] executed "refresh"
+[02:13:00][vladimirPuticlub] executed "ensure "qb-skydive""
+[02:14:12][vladimirPuticlub] executed "ensure "qb-skydive""
+[02:23:48][vladimirPuticlub] executed "stop "psv-garage""
+[02:24:05][vladimirPuticlub] executed "ensure "psv-garage""
+[02:43:37][vladimirPuticlub] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 25/7/2024 14:07:35
+================================================================
+[14:16:13][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[14:16:23][vladimirPuticlub] executed "refresh"
+[14:16:24][vladimirPuticlub] executed "ensure "interact""
+[14:38:11][vladimirPuticlub] executed "RESTART SERVER"
+[14:40:00][vladimirPuticlub] executed "RESTART SERVER"
+[14:43:21][vladimirPuticlub] executed "RESTART SERVER"
+[14:44:11][vladimirPuticlub] executed "RESTART SERVER"
+[14:49:00][vladimirPuticlub] executed "RESTART SERVER"
+[14:50:03][vladimirPuticlub] executed "RESTART SERVER"
+[14:54:07][vladimirPuticlub] executed "RESTART SERVER"
+[14:57:53][vladimirPuticlub] executed "RESTART SERVER"
+[15:11:11][vladimirPuticlub] executed "RESTART SERVER"
+[15:20:07][vladimirPuticlub] executed "ensure "qb-ambulancejob""
+[15:23:58][vladimirPuticlub] executed "ensure "jim-jobgarage""
+[15:24:47][vladimirPuticlub] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 25/7/2024 16:27:28
+================================================================
+[17:44:21][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[17:44:23][vladimirPuticlub] executed "refresh"
+[17:44:25][vladimirPuticlub] executed "ensure "lab-crew""
+[17:52:53][vladimirPuticlub] executed "refresh"
+[17:52:55][vladimirPuticlub] executed "ensure "qb-k9""
+[17:54:49][vladimirPuticlub] executed "RESTART SERVER"
+[17:58:03][vladimirPuticlub] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 25/7/2024 19:12:39
+================================================================
+[19:13:29][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[19:13:39][vladimirPuticlub] executed "refresh"
+[19:13:41][vladimirPuticlub] executed "refresh"
+[19:13:42][vladimirPuticlub] executed "refresh"
+[19:13:44][vladimirPuticlub] executed "refresh"
+[19:13:57][vladimirPuticlub] executed "RESTART SERVER"
+[19:16:40][vladimirPuticlub] executed "ensure "psv-shop""
+[19:22:08][vladimirPuticlub] executed "ensure "psv-shop""
+[19:39:50][vladimirPuticlub] executed "RESTART SERVER"
+[19:42:20][vladimirPuticlub] executed "ensure "psv-shop""
+[19:50:51][vladimirPuticlub] executed "refresh"
+[19:50:54][vladimirPuticlub] executed "ensure "elixir-oxyrun""
+[20:00:40][vladimirPuticlub] executed "refresh"
+[20:00:42][vladimirPuticlub] executed "ensure "frkn-fuelstationv4""
+[20:00:50][vladimirPuticlub] executed "stop "qbus_gasstation""
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 25/7/2024 21:44:42
+================================================================
+[21:50:28][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[21:50:33][vladimirPuticlub] executed "refresh"
+[21:50:35][vladimirPuticlub] executed "ensure "qb-yacht""
+[21:56:01][vladimirPuticlub] executed "RESTART SERVER"
+[22:02:22][vladimirPuticlub] executed "ensure "qb_pacificheist""
+[22:03:31][vladimirPuticlub] executed "ensure "qb_pacificheist""
+[22:05:06][vladimirPuticlub] executed "ensure "qb_pacificheist""
+[22:05:50][vladimirPuticlub] executed "ensure "qb_pacificheist""
+[22:07:26][vladimirPuticlub] executed "ensure "qb_pacificheist""
+[22:09:58][vladimirPuticlub] executed "RESTART SERVER"
+[22:17:57][vladimirPuticlub] executed "ensure "PSV-shop""
+[22:22:49][vladimirPuticlub] executed "RESTART SERVER"
+[22:48:08][vladimirPuticlub] executed "RESTART SERVER"
+[23:01:48][vladimirPuticlub] executed "refresh"
+[23:01:56][vladimirPuticlub] executed "ensure "qb-unicornjob""
+[23:07:00][vladimirPuticlub] executed "ensure "ef-blips""
+[23:18:18][vladimirPuticlub] executed "RESTART SERVER"
+[23:26:44][vladimirPuticlub] executed "refresh"
+[23:26:49][vladimirPuticlub] executed "ensure "Jewelsgods""
+[23:27:43][vladimirPuticlub] executed "RESTART SERVER"
+[23:34:03][vladimirPuticlub] executed "ensure "BakiTelli_mechanic""
+[23:34:52][vladimirPuticlub] executed "ensure "BakiTelli_mechanic""
+[23:42:46][vladimirPuticlub] executed "ensure "qb-inventory""
+[23:42:55][vladimirPuticlub] executed "ensure "qb-smallresources""
+[23:43:38][vladimirPuticlub] executed "ensure "PSV-shop""
+[00:04:02][vladimirPuticlub] executed "RESTART SERVER"
+[00:12:35][vladimirPuticlub] executed "RESTART SERVER"
+[00:19:34][vladimirPuticlub] executed "RESTART SERVER"
+[00:25:43][vladimirPuticlub] executed "RESTART SERVER"
+[00:30:58][vladimirPuticlub] executed "RESTART SERVER"
+[00:52:07][vladimirPuticlub] executed "RESTART SERVER"
+[00:56:53][vladimirPuticlub] executed "ensure "PSV-shop""
+[01:02:18][vladimirPuticlub] executed "ensure "psv-shop""
+[01:07:37][vladimirPuticlub] executed "RESTART SERVER"
+[01:08:40][vladimirPuticlub] executed "RESTART SERVER"
+[01:11:21][vladimirPuticlub] executed "RESTART SERVER"
+[01:15:25][vladimirPuticlub] executed "ensure "qb-ambulancejob""
+[01:15:51][vladimirPuticlub] executed "ensure "qb-ambulancejob""
+[01:15:55][vladimirPuticlub] executed "ensure "PSV-shops""
+[01:17:27][vladimirPuticlub] executed "ensure "qb-management""
+[01:22:38][vladimirPuticlub] executed "refresh"
+[01:22:40][vladimirPuticlub] executed "ensure "rcore_arcade""
+[01:24:20][vladimirPuticlub] executed "refresh"
+[01:24:22][vladimirPuticlub] executed "ensure "um-admin""
+[01:26:06][vladimirPuticlub] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 26/7/2024 5:35:13
+================================================================
+[05:39:04][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[05:39:13][vladimirPuticlub] executed "ensure "PSV-shops""
+[05:40:09][vladimirPuticlub] executed "refresh"
+[05:40:10][vladimirPuticlub] executed "ensure "dpemotes""
+[05:40:32][vladimirPuticlub] executed "ensure "PSV-shops""
+[05:41:31][vladimirPuticlub] executed "stop "PSV-shops""
+[05:41:48][vladimirPuticlub] executed "refresh"
+[05:41:50][vladimirPuticlub] executed "ensure "meteo-shop""
+[05:49:32][vladimirPuticlub] executed "ensure "meteo-shop""
+[05:51:59][vladimirPuticlub] executed "stop "meteo-shop""
+[05:52:00][vladimirPuticlub] executed "ensure "PSV-shops""
+[05:52:57][vladimirPuticlub] executed "stop "PSV-shops""
+[05:52:59][vladimirPuticlub] executed "ensure "meteo-shop""
+[05:53:16][vladimirPuticlub] executed "ensure "meteo-shop""
+[05:55:25][vladimirPuticlub] executed "ensure "meteo-shop""
+[05:56:15][vladimirPuticlub] executed "ensure "meteo-shop""
+[05:56:48][vladimirPuticlub] executed "stop "meteo-shop""
+[05:56:50][vladimirPuticlub] executed "ensure "PSV-shops""
+[05:57:52][vladimirPuticlub] executed "stop "PSV-shops""
+[05:57:54][vladimirPuticlub] executed "ensure "meteo-shop""
+[06:01:07][vladimirPuticlub] executed "ensure "meteo-shop""
+[06:01:58][vladimirPuticlub] executed "refresh"
+[06:02:00][vladimirPuticlub] executed "refresh"
+[06:02:18][vladimirPuticlub] executed "refresh"
+[06:02:19][vladimirPuticlub] executed "ensure "PSV-shops""
+[06:02:26][vladimirPuticlub] executed "stop "meteo-shop""
+[06:02:41][vladimirPuticlub] executed "RESTART SERVER"
+[06:06:35][vladimirPuticlub] executed "refresh"
+[06:06:47][vladimirPuticlub] executed "ensure "PSV-shops""
+[06:08:16][vladimirPuticlub] executed "ensure "PSV-shops""
+[06:09:18][vladimirPuticlub] executed "stop "PSV-shops""
+[06:09:19][vladimirPuticlub] executed "refresh"
+[06:09:20][vladimirPuticlub] executed "refresh"
+[06:09:21][vladimirPuticlub] executed "refresh"
+[06:09:22][vladimirPuticlub] executed "ensure "meteo-shop""
+[06:09:23][vladimirPuticlub] executed "ensure "meteo-shop""
+[06:09:41][vladimirPuticlub] executed "refresh"
+[06:09:51][vladimirPuticlub] executed "ensure "meteo-shop""
+[06:10:16][vladimirPuticlub] executed "ensure "meteo-shop""
+[06:12:28][vladimirPuticlub] executed "ensure "meteo-shop""
+[06:12:40][vladimirPuticlub] executed "refresh"
+[06:12:45][vladimirPuticlub] executed "ensure "meteo-shop""
+[06:13:33][vladimirPuticlub] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 26/7/2024 7:07:17
+================================================================
+[07:12:18][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[07:12:27][vladimirPuticlub] executed "ensure "0r-mechanic""
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 8903 Starting - 26/7/2024 11:46:35
+================================================================
+[11:47:13][vladimirPuticlub] logged in from 127.0.0.1 via cfxre
+[11:54:58][vladimirPuticlub] executed "RESTART SERVER"
+[11:57:29][vladimirPuticlub] executed "refresh"
+[11:57:30][vladimirPuticlub] executed "refresh"
+[11:57:33][vladimirPuticlub] executed "ensure "codev-casino""
+[12:01:11][vladimirPuticlub] executed "RESTART SERVER"
+[12:03:53][vladimirPuticlub] executed "refresh"
+[12:03:54][vladimirPuticlub] executed "refresh"
+[12:05:09][vladimirPuticlub] executed "RESTART SERVER"
+[12:10:03][vladimirPuticlub] executed "RESTART SERVER"
+[12:16:48][vladimirPuticlub] executed "ensure "casino-luckywheel""
+[12:39:21][vladimirPuticlub] executed "RESTART SERVER"
+[12:50:33][vladimirPuticlub] executed "ensure "qb-radialmenu""
+[12:51:03][vladimirPuticlub] executed "RESTART SERVER"
+[12:54:46][vladimirPuticlub] executed "ensure "qb-radialmenu""
+[13:17:38][vladimirPuticlub] executed "RESTART SERVER"
+[13:37:17][vladimirPuticlub] executed "ensure "meteo-shop""
+[13:38:00][vladimirPuticlub] executed "ensure "meteo-shop""
+[13:41:42][vladimirPuticlub] executed "ensure "qb-advancedrug""
