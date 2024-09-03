@@ -1,18 +1,17 @@
 const translate = new Object();
 
-translate.exam_practicaly = 'PRACTICAL EXAM'
+translate.exam_practicaly = 'PRAKTISCHE PRÜFUNG';
 
-translate.question = 'Questions'
+translate.question = 'Fragen';
 
-translate.next_question = 'NEXT'
+translate.next_question = 'WEITER';
 
-translate.your_score = 'Your score:'
+translate.your_score = 'Dein Ergebnis:';
 
-translate.good_result_title = 'Passed'
-translate.good_result_description = 'You have passed. You can now proceed to the practical exam.'
-translate.good_result_close = 'Close'
+translate.good_result_title = 'Bestanden';
+translate.good_result_description = 'Du hast bestanden. Du kannst jetzt zur praktischen Prüfung übergehen.';
+translate.good_result_close = 'Schließen';
 
-translate.bad_result_title = 'Failed'
-translate.bad_result_description = 'Unfortunately, you did not pass the exam, so you should better prepare and come back later.'
-translate.bad_result_close = 'Close'
-
+translate.bad_result_title = 'Nicht Bestanden';
+translate.bad_result_description = 'Leider hast du die Prüfung nicht bestanden. Bereite dich besser vor und komme später zurück.';
+translate.bad_result_close = 'Schließen';
