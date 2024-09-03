@@ -2,47 +2,47 @@ QBCore = exports['qb-core']:GetCoreObject()
 PlayerData = {}
 
 local function createProperty(property)
-	PropertiesTable[property.property_id] = Property:new(property)
+    PropertiesTable[property.property_id] = Property:new(property)
 end
 RegisterNetEvent('ps-housing:client:addProperty', createProperty)
 
-RegisterNetEvent('ps-housing:client:removeProperty', function (property_id)
-	local property = Property.Get(property_id)
+RegisterNetEvent('ps-housing:client:removeProperty', function(property_id)
+    local property = Property.Get(property_id)
 
-	if property then
-		property:RemoveProperty()
-	end
+    if property then
+        property:RemoveProperty()
+    end
 
-	PropertiesTable[property_id] = nil
+    PropertiesTable[property_id] = nil
 end)
 
 function InitialiseProperties(properties)
-    Debug("Initialising properties")
+    Debug("Eigenschaften initialisieren")
     PlayerData = QBCore.Functions.GetPlayerData()
 
     for k, v in pairs(Config.Apartments) do
         ApartmentsTable[k] = Apartment:new(v)
     end
 
-	if not properties then
-    	properties = lib.callback.await('ps-housing:server:requestProperties')
-	end
-	
+    if not properties then
+        properties = lib.callback.await('ps-housing:server:requestProperties')
+    end
+
     for k, v in pairs(properties) do
         createProperty(v.propertyData)
     end
 
     TriggerEvent("ps-housing:client:initialisedProperties")
 
-    Debug("Initialised properties")
+    Debug("Eigenschaften initialisiert")
 end
 AddEventHandler("QBCore:Client:OnPlayerLoaded", InitialiseProperties)
 RegisterNetEvent('ps-housing:client:initialiseProperties', InitialiseProperties)
 
-AddEventHandler("onResourceStart", function(resourceName) -- Used for when the resource is restarted while in game
-	if (GetCurrentResourceName() == resourceName) then
+AddEventHandler("onResourceStart", function(resourceName) -- Wird verwendet, wenn die Ressource neu gestartet wird, während man im Spiel ist
+    if (GetCurrentResourceName() == resourceName) then
         InitialiseProperties()
-	end
+    end
 end)
 
 RegisterNetEvent('QBCore:Client:OnJobUpdate', function(job)
@@ -68,19 +68,19 @@ RegisterNetEvent('ps-housing:client:setupSpawnUI', function(cData)
 end)
 
 AddEventHandler("onResourceStop", function(resourceName)
-	if (GetCurrentResourceName() == resourceName) then
-		if Modeler.IsMenuActive then
-			Modeler:CloseMenu()
-		end
+    if (GetCurrentResourceName() == resourceName) then
+        if Modeler.IsMenuActive then
+            Modeler:CloseMenu()
+        end
 
-		for k, v in pairs(PropertiesTable) do
-			v:RemoveProperty()
-		end
+        for k, v in pairs(PropertiesTable) do
+            v:RemoveProperty()
+        end
 
         for k, v in pairs(ApartmentsTable) do
             v:RemoveApartment()
         end
-	end
+    end
 end)
 
 exports('GetProperties', function()
@@ -106,52 +106,52 @@ end)
 
 lib.callback.register('ps-housing:cb:confirmPurchase', function(amount, street, id)
     return lib.alertDialog({
-        header = 'Purchase Confirmation',
-        content = 'Are you sure you want to purchase '..street..' ' .. id .. ' for $' .. amount .. '?',
+        header = 'Kaufbestätigung',
+        content = 'Sind Sie sicher, dass Sie ' .. street .. ' ' .. id .. ' für $' .. amount .. ' kaufen möchten?',
         centered = true,
         cancel = true,
         labels = {
-            confirm = "Purchase",
-            cancel = "Cancel"
+            confirm = "Kaufen",
+            cancel = "Abbrechen"
         }
     })
 end)
 
 lib.callback.register('ps-housing:cb:confirmRaid', function(street, id)
     return lib.alertDialog({
-        header = 'Raid',
-        content = 'Do you want to raid '..street..' ' .. id .. '?',
+        header = 'Überfall',
+        content = 'Möchten Sie ' .. street .. ' ' .. id .. ' überfallen?',
         centered = true,
         cancel = true,
         labels = {
-            confirm = "Raid",
-            cancel = "Cancel"
+            confirm = "Überfallen",
+            cancel = "Abbrechen"
         }
     })
 end)
 
 lib.callback.register('ps-housing:cb:ringDoorbell', function()
     return lib.alertDialog({
-        header = 'Ring Doorbell',
-        content = 'You dont have a key for this property, would you like to ring the doorbell?',
+        header = 'Türklingel',
+        content = 'Sie haben keinen Schlüssel für diese Immobilie. Möchten Sie die Türklingel betätigen?',
         centered = true,
         cancel = true,
         labels = {
-            confirm = "Ring",
-            cancel = "Cancel"
+            confirm = "Klingeln",
+            cancel = "Abbrechen"
         }
     })
 end)
 
 lib.callback.register('ps-housing:cb:showcase', function()
     return lib.alertDialog({
-        header = 'Showcase Property',
-        content = 'Do you want to showcase this property?',
+        header = 'Immobilie präsentieren',
+        content = 'Möchten Sie diese Immobilie präsentieren?',
         centered = true,
         cancel = true,
         labels = {
-            confirm = "Yes",
-            cancel = "Cancel"
+            confirm = "Ja",
+            cancel = "Abbrechen"
         }
     })
 end)
