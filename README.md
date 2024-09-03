@@ -1,5 +1,7 @@
 # OpenWorldRP
 
+Das Script ist gesichtert durch 
 
+Für Dieses Script bekommt der Developer (Blacksnakes) kein Geld von dem Server Inhaber dies basiert auf freiwillger Basis. 
 
-Hier ist der gesammte RP Server von OpenWorld RP kuss
+02blacksnakes04 Webhost copyright by BlackChi-Development 
