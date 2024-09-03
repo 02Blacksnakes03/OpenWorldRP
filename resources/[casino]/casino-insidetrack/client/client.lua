@@ -1,4 +1,3 @@
-
 local QBCore = exports['qb-core']:GetCoreObject()
 
 local cooldown = 60
@@ -7,14 +6,12 @@ local checkRaceStatus = false
 local insideTrackActive = false
 local gameOpen = false
 
-
-
 CreateThread(function()
     local insideTrackZone = CircleZone:Create(vector3(955.619, 70.179, 70.433), 2.5, {
-        name="insideTrack",
-        heading=328.0,
-        debugPoly=false,
-        useZ=true,
+        name = "insideTrack",
+        heading = 328.0,
+        debugPoly = false,
+        useZ = true,
     })
     insideTrackZone:onPlayerInOut(function(isPointInside)
         if isPointInside then
@@ -22,12 +19,12 @@ CreateThread(function()
                 TriggerEvent('nchub::casinoinsideTrackHeader') 
             elseif Config.HorseBetPrompt == 'peek' then
                 text = '<b>The Diamond Casino & Resort Inside Track</b>'
-				exports['qb-core']:DrawText(text)
-                exports['qb-target']:AddCircleZone("Betting", vector3(956.121,70.185,70.433), 1.0, {
-                    name="Betting",
-                    heading=160,
-                    debugPoly=false,
-                    useZ=true,
+                exports['qb-core']:DrawText(text)
+                exports['qb-target']:AddCircleZone("Betting", vector3(956.121, 70.185, 70.433), 1.0, {
+                    name = "Betting",
+                    heading = 160,
+                    debugPoly = false,
+                    useZ = true,
                 }, {
                     options = {
                         {
@@ -40,7 +37,7 @@ CreateThread(function()
                 })
             end
         else
-			exports['qb-menu']:closeMenu()
+            exports['qb-menu']:closeMenu()
             exports["qb-core"]:HideText()
         end
     end)
@@ -61,8 +58,8 @@ RegisterNetEvent('nchub::casinoinsideTrackHeader', function()
         },
         {
             header = "Cancel",
-			txt = "",
-			params = {
+            txt = "",
+            params = {
                 event = "nchub::casinoinsideTrackHeader"
             }
         },
@@ -78,6 +75,7 @@ local function OpenInsideTrack()
         return
     end
     insideTrackActive = true
+
     -- Scaleform
     Utils.Scaleform = RequestScaleformMovie('HORSE_RACING_CONSOLE')
     while not HasScaleformMovieLoaded(Utils.Scaleform) do
@@ -90,7 +88,8 @@ local function OpenInsideTrack()
     end
     Utils:ShowMainScreen()
     Utils:SetMainScreenCooldown(cooldown)
-    -- Add horses
+
+    -- Pferde hinzufügen
     Utils:AddHorses()
     Utils:DrawInsideTrack()
     Utils:HandleControls()
@@ -115,36 +114,26 @@ end
 RegisterNetEvent('QBCore:client:closeBetsNotEnough')
 AddEventHandler('QBCore:client:closeBetsNotEnough', function()
     closeHorseBets()
-    QBCore.Functions.Notify("Bets Closed! You dont have enough Casino Chips...", "error", 3500)
+    QBCore.Functions.Notify("Wetten geschlossen! Du hast nicht genug Casino-Chips...", "error", 3500)
 end)
 
 RegisterNetEvent('QBCore:client:closeBetsZeroChips')
 AddEventHandler('QBCore:client:closeBetsZeroChips', function()
     closeHorseBets()
-    QBCore.Functions.Notify("Bets Closed! You dont have any Casino Chips...", "error", 3500)
+    QBCore.Functions.Notify("Wetten geschlossen! Du hast keine Casino-Chips...", "error", 3500)
 end)
-
-
 
 RegisterNetEvent('QBCore:client:openInsideTrack')
 AddEventHandler('QBCore:client:openInsideTrack', function()
-    -- QBCore.Functions.TriggerCallback('QBCore:HasItem', function(HasItem)
-    --     if HasItem then
-            OpenInsideTrack()
-    --     else
-    --         QBCore.Functions.Notify('You are not a member of the casino', 'error', 3500)
-    --     end
-    -- end, "casino_members")
+    OpenInsideTrack()
 end) 
-
-
-
 
 function Utils:DrawInsideTrack()
     CreateThread(function()
         while insideTrackActive do
             Wait(0)
             local xMouse, yMouse = GetDisabledControlNormal(2, 239), GetDisabledControlNormal(2, 240)
+
             -- Fake cooldown
             tick = (tick + 10)
             if (tick == 1000) then
@@ -155,12 +144,14 @@ function Utils:DrawInsideTrack()
                 tick = 0
                 Utils:SetMainScreenCooldown(cooldown)
             end
-            -- Mouse control
+
+            -- Maussteuerung
             BeginScaleformMovieMethod(Utils.Scaleform, 'SET_MOUSE_INPUT')
             ScaleformMovieMethodAddParamFloat(xMouse)
             ScaleformMovieMethodAddParamFloat(yMouse)
             EndScaleformMovieMethod()
-            -- Draw
+
+            -- Zeichnen
             DrawScaleformMovieFullscreen(Utils.Scaleform, 255, 255, 255, 255)
         end
     end)
@@ -171,7 +162,6 @@ function Utils:HandleControls()
         while insideTrackActive do
             Wait(0)
 
-
             if IsControlJustPressed(2, 194) then
                 LeaveInsideTrack()
             end
@@ -180,10 +170,10 @@ function Utils:HandleControls()
                 LeaveInsideTrack()
             end
 
-            -- Left click
+            -- Linksklick
             if IsControlJustPressed(2, 237) then
                 local clickedButton = Utils:GetMouseClickedButton()
- 
+
                 if Utils.ChooseHorseVisible then
                     if (clickedButton ~= 12) and (clickedButton ~= -1) then
                         Utils.CurrentHorse = (clickedButton - 1)
@@ -192,12 +182,12 @@ function Utils:HandleControls()
                     end
                 end
 
-                -- Rules button
+                -- Regeln-Button
                 if (clickedButton == 15) then
                     Utils:ShowRules()
                 end
 
-                -- Close buttons
+                -- Schließen-Buttons
                 if (clickedButton == 12) then
                     if Utils.ChooseHorseVisible then
                         Utils.ChooseHorseVisible = false
@@ -212,12 +202,12 @@ function Utils:HandleControls()
                     end
                 end
 
-                -- Start bet
+                -- Wette starten
                 if (clickedButton == 1) then
                     Utils:ShowHorseSelection()
                 end
 
-                -- Start race
+                -- Rennen starten
                 if (clickedButton == 10) then
                     PlaySoundFrontend(-1, 'race_loop', 'dlc_vw_casino_inside_track_betting_single_event_sounds')
                     TriggerServerEvent("insidetrack:server:placebet", Utils.CurrentBet)
@@ -225,7 +215,7 @@ function Utils:HandleControls()
                     checkRaceStatus = true
                 end
 
-                -- Change bet
+                -- Wette ändern
                 if (clickedButton == 8) then
                     if (Utils.CurrentBet < Utils.PlayerBalance) then
                         Utils.CurrentBet = (Utils.CurrentBet + 100)
@@ -246,7 +236,7 @@ function Utils:HandleControls()
                     Utils:ShowMainScreen()
                 end
 
-                -- Check race
+                -- Rennen prüfen
                 while checkRaceStatus do
                     Wait(0)
                     local raceFinished = Utils:IsRaceFinished()
@@ -270,4 +260,3 @@ function Utils:HandleControls()
         end
     end)
 end
-
