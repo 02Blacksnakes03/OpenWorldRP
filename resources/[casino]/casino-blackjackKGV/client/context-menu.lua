@@ -5,16 +5,16 @@ RegisterNetEvent('casino:context:hit&stand', function()
             isMenuHeader = true,
         },
         {
-            header = "Hit", 
-            txt = "Draw another card",
+            header = "Karte ziehen", 
+            txt = "Ziehe eine weitere Karte",
             params = {
                 event = "nchub::client:blackjackMenu",
                 args = 1
             }
         },
         {
-            header = "Stand", 
-            txt = "Be a pussy",
+            header = "Passen", 
+            txt = "Sei ein Feigling",
             params = {
                 event = "nchub::client:blackjackMenu",
                 args = 2
@@ -30,24 +30,24 @@ RegisterNetEvent('casino:context:hit&doubledown', function()
             isMenuHeader = true,
         },
         {
-            header = "Hit", 
-            txt = "Draw another card",
+            header = "Karte ziehen", 
+            txt = "Ziehe eine weitere Karte",
             params = {
                 event = "nchub::client:blackjackMenu",
                 args = 1
             }
         },
         {
-            header = "Stand", 
-            txt = "Be a pussy",
+            header = "Passen", 
+            txt = "Sei ein Feigling",
             params = {
                 event = "nchub::client:blackjackMenu",
                 args = 2
             }
         },
         {
-            header = "Double Down", 
-            txt = "Double your initial bet",
+            header = "Verdoppeln", 
+            txt = "Verdopple deinen Einsatz",
             params = {
                 event = "nchub::client:blackjackMenu",
                 args = 3
@@ -63,24 +63,24 @@ RegisterNetEvent('casino:context:hit&split', function()
             isMenuHeader = true,
         },
         {
-            header = "Hit", 
-            txt = "Draw another card",
+            header = "Karte ziehen", 
+            txt = "Ziehe eine weitere Karte",
             params = {
                 event = "nchub::client:blackjackMenu",
                 args = 1
             }
         },
         {
-            header = "Stand", 
-            txt = "Be a pussy",
+            header = "Passen", 
+            txt = "Sei ein Feigling",
             params = {
                 event = "nchub::client:blackjackMenu",
                 args = 2
             }
         },
         {
-            header = "Split", 
-            txt = "Split",
+            header = "Teilen", 
+            txt = "Teile deine Karten",
             params = {
                 event = "nchub::client:blackjackMenu",
                 args = 4
