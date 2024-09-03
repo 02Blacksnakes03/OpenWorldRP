@@ -1,28 +1,28 @@
 local Translations = {
     error = {
-        to_far_from_door = 'You are to far away from the Doorbell',
-        nobody_home = 'There is nobody home..',
-        nobody_at_door = 'There is nobody at the door...'
+        to_far_from_door = 'Du bist zu weit weg von der Klingel',
+        nobody_home = 'Es ist niemand zu Hause..',
+        nobody_at_door = 'Es ist niemand an der Tür...'
     },
     success = {
-        receive_apart = 'You got a apartment',
-        changed_apart = 'You moved apartments',
+        receive_apart = 'Du hast eine Wohnung bekommen',
+        changed_apart = 'Du bist umgezogen',
     },
     info = {
-        at_the_door = 'Someone is at the door!',
+        at_the_door = 'Jemand ist an der Tür!',
     },
     text = {
-        options = '[E] Apartment Options',
-        enter = 'Enter Apartment',
-        ring_doorbell = 'Ring Doorbell',
-        logout = 'Logout Character',
-        change_outfit = 'Change Outfit',
-        open_stash = 'Open Stash',
-        move_here = 'Move Here',
-        open_door = 'Open Door',
-        leave = 'Leave Apartment',
-        close_menu = '⬅ Close Menu',
-        tennants = 'Tennants',
+        options = '[E] Wohnungsoptionen',
+        enter = 'Wohnung betreten',
+        ring_doorbell = 'Klingel läuten',
+        logout = 'Charakter ausloggen',
+        change_outfit = 'Outfit wechseln',
+        open_stash = 'Versteck öffnen',
+        move_here = 'Hierher ziehen',
+        open_door = 'Tür öffnen',
+        leave = 'Wohnung verlassen',
+        close_menu = '⬅ Menü schließen',
+        tennants = 'Mieter',
     },
 }
 
