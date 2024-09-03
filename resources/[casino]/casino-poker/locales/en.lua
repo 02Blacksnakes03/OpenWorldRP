@@ -1,48 +1,48 @@
 Locales['en'] = {
-    -- notifications
-    ['chair_occupied'] = 'This seat is occupied.',
-    ['no_react'] = 'You did not respond for the dealer ask in time, you have folded your hand.',
-    ['no_bet_input'] = 'You did not set up a bet value.',
-    ['not_enough_chips'] = 'You do not have enough chips.',
-    ['not_enough_chips_next'] = 'You do not have enough chips to bet on the Pair Plus, because you would not have enough chips for the playing.',
-    ['not_enough_chips_third'] = 'You can not put that amount of chips because you would not have enough for playing your hand.',
-    ['not_enough_chips_toplay'] = 'You do not have enough chips to play!',
-    ['already_betted']= 'You already betted.',
-    ['lose'] = 'You lose!',
-    -- formatted notif
-    ['dealer_not_qual'] = 'Draw.\nThe Dealer did not qualify for the game.\nYou got %s chips back.',
-    ['dealer_not_qual_ante'] = 'Draw.\nThe Dealer did not qualify for the game.\nYou got %s chips back. (Ante multiplier: x%s)',
-    ['player_won_ante'] = 'Your hand won!\nYou got %s chips. (Ante multiplier: x%s)',
-    ['player_won'] = 'Your hand won!\nYou got %s chips.',
-    ['pair_won'] = 'You won %s chips with your Pair Plus bet! (Pair multiplier: x%s)',
-    -- hud
-    -- ['current_bet_input'] = 'BET:',
+    -- Benachrichtigungen
+    ['chair_occupied'] = 'Dieser Platz ist besetzt.',
+    ['no_react'] = 'Du hast nicht rechtzeitig auf die Frage des Dealers reagiert, du hast deine Hand gefaltet.',
+    ['no_bet_input'] = 'Du hast keinen Einsatzwert angegeben.',
+    ['not_enough_chips'] = 'Du hast nicht genügend Chips.',
+    ['not_enough_chips_next'] = 'Du hast nicht genügend Chips, um auf Pair Plus zu setzen, da du nicht genug Chips für das Spiel hättest.',
+    ['not_enough_chips_third'] = 'Du kannst diesen Betrag an Chips nicht setzen, da du nicht genug Chips für deine Hand hättest.',
+    ['not_enough_chips_toplay'] = 'Du hast nicht genug Chips, um zu spielen!',
+    ['already_betted'] = 'Du hast bereits gesetzt.',
+    ['lose'] = 'Du hast verloren!',
+    -- formatierte Benachrichtigungen
+    ['dealer_not_qual'] = 'Unentschieden.\nDer Dealer hat sich nicht qualifiziert.\nDu hast %s Chips zurückbekommen.',
+    ['dealer_not_qual_ante'] = 'Unentschieden.\nDer Dealer hat sich nicht qualifiziert.\nDu hast %s Chips zurückbekommen. (Ante Multiplikator: x%s)',
+    ['player_won_ante'] = 'Deine Hand hat gewonnen!\nDu hast %s Chips gewonnen. (Ante Multiplikator: x%s)',
+    ['player_won'] = 'Deine Hand hat gewonnen!\nDu hast %s Chips gewonnen.',
+    ['pair_won'] = 'Du hast %s Chips mit deinem Pair Plus Einsatz gewonnen! (Pair Multiplikator: x%s)',
+    -- HUD
+    -- ['current_bet_input'] = 'EINSATZ:',
     -- ['current_player_chips'] = 'CHIPS:',
     -- ['table_min_max'] = 'MIN/MAX:',
-    -- ['remaining_time'] = 'TIME:',
-    -- top left
-    ['waiting_for_players'] = 'Waiting for players...',
-    ['clearing_table'] = 'Clearing the table...</br>Next game starting soon.',
-    ['dealer_showing_hand'] = 'The Dealer is showing their hand.',
-    ['players_showing_hands'] = 'Revealing player hands...',
-    ['dealing_cards'] = 'Dealing cards to players...',
-    -- inputs
-    ['fold_cards'] = 'Fold',
-    ['play_cards'] = 'Play',
-    -- ['leave_game'] = 'Leave game',
-    -- ['raise_bet'] = 'Raise bet',
-    -- ['reduce_bet'] = 'Reduce bet',
-    -- ['custom_bet'] = 'Custom bet',
-    -- ['place_bet'] = 'Place bet',
-    ['place_pair_bet'] = 'Place Pair Plus bet',
-    -- gtao ui
+    -- ['remaining_time'] = 'ZEIT:',
+    -- oben links
+    ['waiting_for_players'] = 'Warte auf Spieler...',
+    ['clearing_table'] = 'Tisch wird gereinigt...</br>Nächstes Spiel beginnt bald.',
+    ['dealer_showing_hand'] = 'Der Dealer zeigt seine Hand.',
+    ['players_showing_hands'] = 'Spielerhände werden gezeigt...',
+    ['dealing_cards'] = 'Karten werden an die Spieler ausgeteilt...',
+    -- Eingaben
+    ['fold_cards'] = 'Falten',
+    ['play_cards'] = 'Spielen',
+    -- ['leave_game'] = 'Spiel verlassen',
+    -- ['raise_bet'] = 'Einsatz erhöhen',
+    -- ['reduce_bet'] = 'Einsatz reduzieren',
+    -- ['custom_bet'] = 'Benutzerdefinierter Einsatz',
+    -- ['place_bet'] = 'Einsatz platzieren',
+    ['place_pair_bet'] = 'Pair Plus Einsatz platzieren',
+    -- GTAO UI
     -- ['tcp'] = '<C>[Aquiver]</C> ~b~Three Card Poker',
-    -- ['sit_down_table'] = '~h~<C>Play</C> ~b~Three Card Poker',
-    -- ['description'] = 'Game Description',
-    -- ['desc_1'] = 'TCP_DIS1', -- this is Rockstar Setuped default, this will automaticly change if you are using german language etc.
+    -- ['sit_down_table'] = '~h~<C>Spielen</C> ~b~Three Card Poker',
+    -- ['description'] = 'Spielbeschreibung',
+    -- ['desc_1'] = 'TCP_DIS1', -- Dies ist die von Rockstar standardmäßig festgelegte Beschreibung, sie wird automatisch geändert, wenn du eine andere Sprache verwendest.
     -- ['desc_2'] = 'TCP_DIS2',
     -- ['desc_3'] = 'TCP_DIS3',
-    -- ['description_info'] = 'How is the game working?',
+    -- ['description_info'] = 'Wie funktioniert das Spiel?',
     -- ['rule_1'] = 'TCP_RULE_1',
     -- ['rule_2'] = 'TCP_RULE_2',
     -- ['rule_3'] = 'TCP_RULE_3',
@@ -53,6 +53,6 @@ Locales['en'] = {
     -- ['rule_header_3'] = 'TCP_RULE_3T',
     -- ['rule_header_4'] = 'TCP_RULE_4T',
     -- ['rule_header_5'] = 'TCP_RULE_5T',
-    -- ['rules'] = 'Game Rules',
-    -- ['rules_info'] = 'Game rules or anything you should know.'
+    -- ['rules'] = 'Spielregeln',
+    -- ['rules_info'] = 'Spielregeln oder alles, was du wissen solltest.'
 }
