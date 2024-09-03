@@ -97,12 +97,12 @@
       <div style="display: none" class="wrapper">
         <div class="top-bar">
           <div class="title">
-            <h2 class="text-glow-2">Banking</h2>
+            <h2 class="text-glow-2">Bank</h2>
             <p>System</p>
           </div>
           <div class="buttons">
             <div class="button">
-              <div class="button-label">Export</div>
+              <div class="button-label">Ausführen</div>
               <div class="button-key"><img src="images/export.svg" /></div>
             </div>
             <div id="exit-btn" class="button">
@@ -115,30 +115,30 @@
           <div class="accounts">
             <div class="create-account">
               <div class="create-account-question">
-                Do you want to create account?
+                Möchten Sie ein Konto erstellen?
               </div>
               <div
                 onclick="ShowModal('create-account')"
                 class="create-account-btn"
               >
-                Create Account
+              Konto erstellen
               </div>
             </div>
           </div>
           <div class="selected-account">
             <div class="selected-account-account">
               <div class="selected-account-account-details">
-                <h4 id="selected-account-name">Default Account</h4>
+                <h4 id="selected-account-name">Standart Account</h4>
                 <p id="selected-account-balance">$0.00</p>
                 <p>Account ID: <span id="selected-account-id"></span></p>
                 <p>
-                  Account Type: <span id="selected-account-type">Default</span>
+                  Account Typ: <span id="selected-account-type">Standart</span>
                 </p>
                 <p
                   onclick="ShowModal('deleteaccount')"
                   id="selected-account-delete-btn"
                 >
-                  Delete Account
+                  Account Löschen
                 </p>
               </div>
               <div class="selected-account-actions">
@@ -146,21 +146,21 @@
                   onclick="ShowModal('deposit');"
                   class="selected-account-account-action-btn"
                 >
-                  Deposit
+                Einzahlung
                 </div>
                 <div
                   onclick="ShowModal('transfer');"
                   style="background-color: #272f24; color: #c2cc37"
                   class="selected-account-account-action-btn"
                 >
-                  Transfer
+                  Überweisung
                 </div>
                 <div
                   onclick="ShowModal('withdraw');"
                   style="background-color: #22172c; color: #944250"
                   class="selected-account-account-action-btn"
                 >
-                  Withdraw
+                  Auszahlen
                 </div>
               </div>
             </div>
@@ -171,24 +171,24 @@
       </div>
       <div style="display: none" class="modal modal-createaccount">
         <div class="modal-upper">
-          <div class="modal-title text-glow-2">Create Account</div>
-          <div class="modal-description">Create a new account</div>
+          <div class="modal-title text-glow-2">Konto Erstellen</div>
+          <div class="modal-description">Ein neues Konto erstellen</div>
         </div>
 
         <div class="modal-select-textinput">
-          <p>Select Name</p>
+          <p>Name auswählen</p>
           <div class="modal-select-textinput-inner">
             <input type="text" placeholder="Your account name" />
           </div>
         </div>
 
-        <div class="modal-submit-btn">Create Account</div>
+        <div class="modal-submit-btn">Konto erstellen</div>
       </div>
 
       <div style="display: none" class="modal modal-withdraw">
         <div class="modal-upper">
-          <div class="modal-title text-glow-2">Withdraw</div>
-          <div class="modal-description">Withdraw money from your account</div>
+          <div class="modal-title text-glow-2">Auszahlen</div>
+          <div class="modal-description">Das Geld wird von deinem Konto Ausgezahlt</div>
         </div>
 
         <div class="modal-select-account">
