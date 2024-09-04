@@ -7,3 +7,4 @@ Für Dieses Script bekommt der Developer (Blacksnakes) kein Geld von dem Server 
 02blacksnakes04 Webhost copyright by BlackChi-Development 
 
 
+ 
