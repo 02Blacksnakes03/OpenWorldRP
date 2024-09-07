@@ -1,0 +1,12 @@
+# Ignoriere den Cache-Ordner
+cache/
+
+# Ignoriere alle .rpf und .sfl Dateien
+*.rpf
+*.sfl
+
+# Ignoriere die VS-Konfigurationsdateien
+.vs/
+
+# Ignoriere alle Backup-Dateien
+*.bkp
