@@ -82,3 +82,4 @@ QBCore.Functions.CreateCallback('qb-clothing:server:getOutfits', function(source
     end
     cb(anusVal)
 end)
+ 
