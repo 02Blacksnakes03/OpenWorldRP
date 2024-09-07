@@ -1,12 +1,13 @@
  local QBCore = exports['qb-core']:GetCoreObject()
 
- RegisterServerEvent("qb-clothing:saveSkin", function(model, skin)
-    local src = source
+ RegisterServerEvent("qb-clothing:saveSkin")
+ AddEventHandler('qb-clothing:saveSkin', function(model, skin)
+     local src = source
      local Player = QBCore.Functions.GetPlayer(src)
      if model ~= nil and skin ~= nil then
-        -- TODO: Update primary key to be citizenid so this can be an insert on duplicate update query
-        MySQL.query('DELETE FROM playerskins WHERE citizenid = ?', { Player.PlayerData.citizenid }, function()
-             MySQL.insert('INSERT INTO playerskins (citizenid, model, skin, active) VALUES (?, ?, ?, ?)', {
+         -- TODO: Update primary key to be citizenid so this can be an insert on duplicate update query
+         MySQL.Async.execute('DELETE FROM playerskins WHERE citizenid = ?', { Player.PlayerData.citizenid }, function()
+             MySQL.Async.insert('INSERT INTO playerskins (citizenid, model, skin, active) VALUES (?, ?, ?, ?)', {
                  Player.PlayerData.citizenid,
                  model,
                  skin,
